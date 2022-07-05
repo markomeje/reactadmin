@@ -19,11 +19,11 @@ const Sidebar = () => {
                         <SiShopware className='text-3xl' /><span>Shoppy</span>
                     </Link>
                     <TooltipComponent content="Menu" position='BottomCenter'>
-                        <button type="button" onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidden">
+                        <button type="button" onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)} className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidde">
                             <MdOutlineCancel />
                         </button>
                     </TooltipComponent>
-                </div> 
+                </div>  
                 <div className='mt-10'>
                     {links.map((item) => (
                         <div key={item.title}>
